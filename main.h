@@ -1,7 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 void _putchar(char data);
-char *int_toString(int);
-int fill(char *);
+int write_int(void *);
+int write_str(void *);
 int __printf(const char *format, ...);
 #endif
